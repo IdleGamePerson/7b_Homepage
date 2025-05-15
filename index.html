@@ -8,6 +8,8 @@
 <body>
     <h1>7b-Spiele</h1>
     <div class="spiel-liste">
+
+        <!-- Spiel 1: Bubble Simulator -->
         <div class="spiel">
             <h2>Bubble Simulator</h2>
             <button onclick="zeigeInfo('bubble')">Info</button>
@@ -17,6 +19,18 @@
                 die Blasen besser und schneller erscheinen lassen können und exponentiell Punkte erhöhen können!
             </p>
         </div>
+
+        <!-- Spiel 2: n42's RNG -->
+        <div class="spiel">
+            <h2>n42's RNG</h2>
+            <button onclick="zeigeInfo('rng')">Info</button>
+            <button onclick="spieleSpiel('https://idlegameperson.github.io/n42s_RNG/')">Spielen</button>
+            <p id="info-rng" class="infotext versteckt">
+                Drehe das Glücksrad und schaue, was raus kommt! Kaufe Upgrades, um das Glücksrad zu verbessern, 
+                und erreiche die besondere 1 zu 400000000 Seltenheit!
+            </p>
+        </div>
+
     </div>
 
     <script src="script.js"></script>
